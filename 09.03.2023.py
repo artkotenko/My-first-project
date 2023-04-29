@@ -175,4 +175,3 @@ while run:
         for i in range(1, 3):
             asteroid = Enemy(image_asteroid, randint(30, win_width - 30), -40, 80, 50, randint(1, 7))
             asteroids.add(asteroid)
-    time.delay(50)
